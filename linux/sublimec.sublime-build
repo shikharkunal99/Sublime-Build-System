@@ -1,0 +1,4 @@
+{
+"cmd": ["echo INPUT && less ${file_path}/inputf.in && echo OUTPUT && g++ -std=c++11 ${file} -o ${file_path}/${file_base_name} && ${file_path}/${file_base_name}<${file_path}/inputf.in>${file_path}/outputf.in && less outputf.in && echo \n" ],
+"shell":true
+}

@@ -1,4 +1,6 @@
 {
-"cmd": ["g++.exe", "-std=c++11", "${file}", "-o", "${file_path}/${file_base_name}.exe", "&&" , "${file_path}/${file_base_name}.exe<${file_path}/inputf.in>${file_path}/outputf.in"],
-"shell":true
+"cmd": ["g++.exe", "-std=c++11", "${file}", "-o", "${file_base_name}.exe", "&&" , "${file_base_name}.exe<inputf.in>outputf.in"],
+"shell":true,
+"working_dir":"$file_path",
+"selector":"source.c"
 }

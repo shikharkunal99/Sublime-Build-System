@@ -1,0 +1,6 @@
+{
+"cmd" : ["g++ -std=c++11 $file_name -o $file_base_name && xterm -e ./$file_base_name"], 
+"selector" : "source.c",
+"shell": true,
+"working_dir" : "$file_path"
+}

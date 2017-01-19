@@ -1,5 +1,5 @@
 # Sublime-Build-System
-A sublime build system for C++ in windows 
+A sublime build system for C++ and Python.
 
 This takes input from a file- inputf.in  and prints the output in file outputf.in. 
 

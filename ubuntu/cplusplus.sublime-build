@@ -8,7 +8,7 @@
 	[
 		{
 			"name": "Run",
-			"cmd": ["x-terminal-emulator", "-e", "bash", "-c", "g++ -Wall -std=c++14 '${file}' -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}'; read -p 'Press any key to continue...'"]
+			"cmd": ["x-terminal-emulator", "-e", "bash", "-c", "g++ -Wall -std=c++14 '${file}' -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}'; read -p ''"]
 		}
 	]
 }	
